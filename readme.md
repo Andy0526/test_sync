@@ -50,7 +50,7 @@ phone    | y        | string | 手机号码
 password | y        | string | 密码
 captcha  | y        | string | 验证码验证
 
-### 3.2 `POST /account/forgetpassword`
+### 3.2 POST /account/forgetpassword
 
 AUTH:True
 
@@ -62,7 +62,7 @@ phone    | y        | string | 手机号码
 password | y        | string | 密码
 captcha  | y        | string | 验证码验证
 
-### 3.3 `POST /v1.0/account/resetpassword`
+### 3.3 POST /v1.0/account/resetpassword
 
 AUTH:True
 
