@@ -27,7 +27,7 @@ key       | Requried | type  | description
 --------- | -------- | ----- | -----------
 blocklist | y        | array | 拉黑列表
 
-#### block数据说明
+#### 1. block数据说明
 
 key              | Requried | type   | description
 ---------------- | -------- | ------ | -----------
@@ -41,3 +41,5 @@ name             | y        | string | 昵称
 [API desc](#api-description)
 
 [data数据说明](#data数据说明)
+
+[block数据说明](#1-block数据说明)
