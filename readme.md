@@ -82,6 +82,6 @@ old_password | y        | string | 旧密码
 
 [block数据说明](#1-block数据说明)
 
-[resetpassword](#33-post-/v1.0/account/resetpassword)
+[resetpassword](#33-post-v10accountresetpassword)
 
 [forgetpassword](#32-post-accountforgetpassword)
