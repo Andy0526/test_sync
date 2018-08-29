@@ -36,6 +36,44 @@ uid              | y        | number | uid
 avatar_thumbnail | y        | string | 头像缩略图
 name             | y        | string | 昵称
 
+## 3. 接口列表
+
+### 3.1 POST /account/setpassword
+
+AUTH:True
+
+请求参数
+
+key      | Requried | type   | description
+-------- | -------- | ------ | -----------
+phone    | y        | string | 手机号码
+password | y        | string | 密码
+captcha  | y        | string | 验证码验证
+
+### 3.2 `POST /account/forgetpassword`
+
+AUTH:True
+
+请求参数
+
+key      | Requried | type   | description
+-------- | -------- | ------ | -----------
+phone    | y        | string | 手机号码
+password | y        | string | 密码
+captcha  | y        | string | 验证码验证
+
+### 3.3 `POST /v1.0/account/resetpassword`
+
+AUTH:True
+
+请求参数
+
+key          | Requried | type   | description
+------------ | -------- | ------ | -----------
+new_password | y        | string | 新密码
+old_password | y        | string | 旧密码
+
+
 [回到顶部](#readme)
 
 [API desc](#api-description)
@@ -43,3 +81,7 @@ name             | y        | string | 昵称
 [data数据说明](#data数据说明)
 
 [block数据说明](#1-block数据说明)
+
+[resetpassword](#33-post-/v1.0/account/resetpassword)
+
+[forgetpassword](#32-post-/account/forgetpassword)
