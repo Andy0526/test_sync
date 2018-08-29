@@ -84,4 +84,4 @@ old_password | y        | string | 旧密码
 
 [resetpassword](#33-post-/v1.0/account/resetpassword)
 
-[forgetpassword](#32)
+[forgetpassword](#32-post-accountforgetpassword)
